@@ -173,6 +173,10 @@ impl NativePluginContextImpl {
     self.file_emitter.get_file_name(reference_id)
   }
 
+  pub fn associate_module_with_emitted_file(&self, module_id: ArcStr, reference_id: ArcStr) {
+    self.file_emitter.associate_module_with_emitted_file(module_id, reference_id);
+  }
+
   pub fn get_module_info(&self, module_id: &str) -> Option<Arc<rolldown_common::ModuleInfo>> {
     self.module_infos.get(module_id).map(|v| Arc::<rolldown_common::ModuleInfo>::clone(v.value()))
   }

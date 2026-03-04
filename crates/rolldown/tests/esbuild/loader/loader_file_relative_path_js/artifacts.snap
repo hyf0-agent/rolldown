@@ -8,12 +8,12 @@ source: crates/rolldown_testing/src/integration_test.rs
 ```js
 //#endregion
 //#region entries/entry.js
-console.log("image-BN35D2wm.png");
+console.log("../image-RzbKAZGz.png");
 //#endregion
 
 ```
 
-## image-BN35D2wm.png
+## image-RzbKAZGz.png
 
 ```png
 x

@@ -3,14 +3,14 @@ source: crates/rolldown_testing/src/integration_test.rs
 ---
 # Assets
 
-## assets/image-Dq1zDy-k.png
+## assets/image-RzbKAZGz.png
 
 ## entries/entry.js
 
 ```js
 //#endregion
 //#region entries/entry.js
-console.log("assets/image-Dq1zDy-k.png");
+console.log("../assets/image-RzbKAZGz.png");
 //#endregion
 
 ```

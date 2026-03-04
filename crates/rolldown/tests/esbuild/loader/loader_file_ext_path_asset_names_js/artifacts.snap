@@ -8,18 +8,18 @@ source: crates/rolldown_testing/src/integration_test.rs
 ```js
 //#endregion
 //#region entries/entry.js
-console.log("png/image-Cx8g-Msp.png", "txt/file-DE24LLfV.txt");
+console.log("../png/image-RzbKAZGz.png", "../txt/file-DlqcDX5l.txt");
 //#endregion
 
 ```
 
-## png/image-Cx8g-Msp.png
+## png/image-RzbKAZGz.png
 
 ```png
 x
 ```
 
-## txt/file-DE24LLfV.txt
+## txt/file-DlqcDX5l.txt
 
 ```txt
 y
