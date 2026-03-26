@@ -179,6 +179,10 @@ async fn main() {
                 elapsed.as_secs_f64() * 1000.0,
                 output.assets.len()
             );
+            // Skip all cleanup (drop of bundler, tokio runtime shutdown,
+            // rayon thread pool join, etc.) — process exit reclaims everything.
+            // This is safe for a CLI tool and is what bun does (no explicit cleanup).
+            std::process::exit(0);
         }
         Err(e) => {
             eprintln!("Build failed: {e:?}");
